@@ -138,6 +138,12 @@ emojied_message = ''
 File.readlines(ARGV[0]).each do |line|
   stop_emojifying = true if line.start_with?('#')
 
+  # short-circuit boring commits
+  if line.strip == 'no-emoji'
+    stop_emojifying = true
+    next
+  end
+
   unless stop_emojifying
     line.gsub!(reg) do |s|
       # if it starts and ends with a colon, it's probably already an emoji
