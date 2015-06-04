@@ -19,4 +19,17 @@ So, a lazy commit message like:
 Will magically become:
 "Don't put the :dog: in the :house: too :soon:"
 
+Also, because I know there are people out there who may occasionally want to be boring: if you throw a line that contains nothing but "no-emoji" in your commit message, parsing will stop there, and the rest of your message won't be any fun. But maybe no fun is what you want? For example:
+
+```
+Ah, jumping in my blue car!
+no-emoji
+My house was on fire, so I need to commit this quickly
+```
+
+Will turn into:
+
+Ah, jumping in my :blue_car:!
+My house was on fire, so I need to commit this quickly
+
 You're welcome, America.
