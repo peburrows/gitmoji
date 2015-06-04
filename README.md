@@ -6,8 +6,8 @@ I imagine many of you feel the same (or maybe I'm completely alone in this). Man
 
 Well, worry no more, because our long, national nightmare is over: I have solved our emoji problem. And all you have to do is run the following one-liner in each project you'd like to emojify:
 
-# make sure you're in the project root, and then run:
 ```shell
+# make sure you're in the project root, and then run:
 $ curl https://raw.githubusercontent.com/peburrows/gitmoji/master/commit-msg > .git/hooks/commit-msg && chmod +x .git/hooks/commit-msg
 ```
 
