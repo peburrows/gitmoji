@@ -29,7 +29,6 @@ My house was on fire, so I need to commit this quickly
 
 Will turn into:
 
-Ah, jumping in my :blue_car:!
-My house was on fire, so I need to commit this quickly
+"Ah, jumping in my :blue_car:! My house was on fire, so I need to commit this quickly"
 
 You're welcome, America.
