@@ -118,7 +118,7 @@ emoji = ["bowtie", "smile", "laughing", "blush", "smiley", "relaxed", "smirk", "
         "small_blue_diamond", "small_orange_diamond", "small_red_triangle", "small_red_triangle_down",
         "shipit"]
 
-# uncomment these if you want to be obnoxious and replace words less than three characters
+# uncomment these if you want to be obnoxious and replace words shorter than three characters
 # emoji += ["v", "fu", "ox", "cd", "tv", "jp", "kr", "cn", "us", "fr",
 #           "es", "it", "ru", "gb", "uk", "de", "ok", "up", "ng", "sa",
 #           "wc", "m", "cl", "id", "vs", "a", "b", "ab", "o2", "on",
